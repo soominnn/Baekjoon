@@ -19,7 +19,5 @@ for i in range(s):
     computer[tmp[0]].append(tmp[1])
     computer[tmp[1]].append(tmp[0])
 bfs(visited, 1, computer, n)
-print(computer)
-print(visited)
 print(visited.count(True)-1)
 
