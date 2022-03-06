@@ -1,5 +1,6 @@
 from collections import deque
 
+#a
 def bfs(village,dx, dy,x,y,n):
     village[x][y] = 0
     house_count = 1
@@ -14,7 +15,6 @@ def bfs(village,dx, dy,x,y,n):
                 house_count += 1
     house.append(house_count)
 
-            
 n = int(input())
 village = []
 house = []
